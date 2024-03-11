@@ -1,17 +1,11 @@
-# bestshop_adminpanel
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 # ecommerceAdminPanel
+
+Flutter E-commerce app's Admin Panel based on 
+[Hadi Kachmar's Flutter & Firebase: build an E-commerce and Admin App [2024]](https://www.udemy.com/course/flutter-310-firebase-build-an-e-commerce-and-admin-app/?couponCode=KEEPLEARNING) udemy course.
+ 
+
+## Details
+
+I am rewriting the program in the course, because I want to practice and develope my flutter skills.
+You can find instructor's code from this [link](https://github.com/hadikachmar3/shopSmartCourseFirebaseEN).
+
