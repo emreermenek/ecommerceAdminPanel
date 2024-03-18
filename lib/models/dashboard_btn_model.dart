@@ -1,4 +1,4 @@
-import 'package:bestshop_adminpanel/pages/addnew_product_page.dart';
+import 'package:bestshop_adminpanel/pages/edit_upload_product_page.dart';
 import 'package:bestshop_adminpanel/pages/inner_pages/orders/order_page.dart';
 import 'package:bestshop_adminpanel/pages/search_page.dart';
 import 'package:bestshop_adminpanel/services/images_manager.dart';
@@ -17,7 +17,7 @@ class DashboardButtonModel {
           label: "Add a new product",
           image: ImagesManager.cloud,
           func: () {
-            Navigator.pushNamed(context, AddNewProductPage.rootName);
+            Navigator.pushNamed(context, EditOrUploadProductPage.rootName);
           }),
       DashboardButtonModel(
           label: "Inspect all products",

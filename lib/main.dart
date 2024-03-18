@@ -1,5 +1,5 @@
 import 'package:bestshop_adminpanel/consts/theme_data.dart';
-import 'package:bestshop_adminpanel/pages/addnew_product_page.dart';
+import 'package:bestshop_adminpanel/pages/edit_upload_product_page.dart';
 import 'package:bestshop_adminpanel/pages/dashboard_page.dart';
 import 'package:bestshop_adminpanel/pages/inner_pages/orders/order_page.dart';
 import 'package:bestshop_adminpanel/pages/search_page.dart';
@@ -40,8 +40,8 @@ class MyApp extends StatelessWidget {
             SearchPage.rootName: (context) {
               return const SearchPage();
             },
-            AddNewProductPage.rootName: (context) {
-              return const AddNewProductPage();
+            EditOrUploadProductPage.rootName: (context) {
+              return const EditOrUploadProductPage();
             }
           },
         );

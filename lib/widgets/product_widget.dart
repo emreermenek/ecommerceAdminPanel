@@ -1,3 +1,4 @@
+import 'package:bestshop_adminpanel/pages/edit_upload_product_page.dart';
 import 'package:bestshop_adminpanel/providers/product_provider.dart';
 import 'package:bestshop_adminpanel/widgets/subtitle_text.dart';
 import 'package:bestshop_adminpanel/widgets/title_text.dart';
@@ -20,18 +21,22 @@ class ProductsWidget extends StatelessWidget {
         : Padding(
             padding: const EdgeInsets.only(top: 20),
             child: GestureDetector(
-              onTap: () async {},
+              onTap: () async {
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return EditOrUploadProductPage(
+                    productModel: getCurProduct,
+                  );
+                }));
+              },
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   ClipRRect(
                     borderRadius: BorderRadius.circular(12),
-                    child: Flexible(
-                      child: FancyShimmerImage(
-                        imageUrl: getCurProduct.productImage,
-                        height: size.height * 0.25,
-                        width: double.infinity,
-                      ),
+                    child: FancyShimmerImage(
+                      imageUrl: getCurProduct.productImage,
+                      height: size.height * 0.25,
+                      width: double.infinity,
                     ),
                   ),
                   SizedBox(

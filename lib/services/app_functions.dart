@@ -50,17 +50,19 @@ class AppFunctions {
                             color: Colors.green,
                           )),
                     ),
-                    TextButton(
-                        onPressed: () {
-                          func();
-                          if (Navigator.canPop(context)) {
-                            Navigator.pop(context);
-                          }
-                        },
-                        child: const TitleTextWidget(
-                          label: "OK",
-                          color: Colors.red,
-                        )),
+                    Expanded(
+                      child: TextButton(
+                          onPressed: () {
+                            func();
+                            if (Navigator.canPop(context)) {
+                              Navigator.pop(context);
+                            }
+                          },
+                          child: const TitleTextWidget(
+                            label: "OK",
+                            color: Colors.red,
+                          )),
+                    ),
                   ],
                 ),
               ],
